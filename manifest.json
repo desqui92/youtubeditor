@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Editar estetica de youtube",
+    "description": "Modifica el brillo, saturacion y contraste de los videos de youtube",
+    "version": "1",
+    "icons": {
+      "128": "icon_128.png"
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "https://www.youtube.com/*"
+    ]
+  }
