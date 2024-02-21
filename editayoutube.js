@@ -77,7 +77,7 @@ elb.onclick = function () {
     }
 };
 
-setTimeout(function(){
+/*setTimeout(function(){
 if(localStorage.getItem("ModoCine") && localStorage.getItem("ModoCine") == "activado"){
 document.getElementById("page-manager").style.marginTop = "0px";
 document.getElementById("player-container").style.maxHeight = "100vh";
@@ -142,5 +142,5 @@ document.getElementById("masthead-container").onmouseout = function () {
 }
 localStorage.setItem("ModoCine", "desactivado");
 }
-}
+}*/
 }
